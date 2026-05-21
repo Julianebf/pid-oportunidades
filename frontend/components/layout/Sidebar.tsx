@@ -69,11 +69,11 @@ export function Sidebar() {
           </Link>
         </li>
       </ul>
-      <div className="px-lg mt-auto">
+      {/* <div className="px-lg mt-auto">
         <button className="w-full py-sm px-md bg-transparent border-2 border-primary text-primary rounded-full font-label-md text-label-md hover:bg-surface-container-high transition-colors">
           Exportar dados
         </button>
-      </div>
+      </div> */}
     </nav>
   );
 }

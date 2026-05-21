@@ -1,14 +1,9 @@
-"use client";
-
 import { ReportPreview } from "@/components/dashboard/ReportPreview";
+import { PrintButton } from "@/components/dashboard/PrintButton";
 import { AppShell } from "@/components/layout/AppShell";
 import { Button } from "@/components/ui/Button";
 
-export default function ReportPage() {
-  function handlePrint() {
-    window.print();
-  }
-
+export default async function ReportPage() {
   return (
     <AppShell>
       <section className="report-page-actions">
@@ -16,13 +11,7 @@ export default function ReportPage() {
           Voltar ao mapa
         </Button>
 
-        <Button
-          type="button"
-          title="Baixar relatório em PDF"
-          onClick={handlePrint}
-        >
-          Baixar PDF
-        </Button>
+        <PrintButton />
       </section>
 
       <ReportPreview />
