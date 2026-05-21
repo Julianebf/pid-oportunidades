@@ -140,7 +140,7 @@ export async function ReportPreview() {
           </div>
         </section>
 
-        {report.sources && report.sources.length > 0 && (
+        {/* {report.sources && report.sources.length > 0 && (
           <section className="report-section">
             <span>8</span>
             <div>
@@ -160,7 +160,7 @@ export async function ReportPreview() {
               </ul>
             </div>
           </section>
-        )}
+        )} */}
       </div>
     </article>
   );

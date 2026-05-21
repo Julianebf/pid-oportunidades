@@ -1,4 +1,4 @@
-import { ChatMock } from "@/components/dashboard/ChatMock";
+// import { ChatMock } from "@/components/dashboard/ChatMock";
 import { AppShell } from "@/components/layout/AppShell";
 import { MapMock } from "@/components/map/MapMock";
 import { Button } from "@/components/ui/Button";
@@ -21,14 +21,14 @@ export default async function CopilotPage() {
 
   return (
     <AppShell>
-      <section className="page-heading">
+      {/* <section className="page-heading">
         <span className="eyebrow">Inteligência analítica institucional</span>
         <h1>Copiloto PID</h1>
         <p>
           Pergunte sobre custo, tempo, alavancas e regiões prioritárias para
           descarbonização.
         </p>
-      </section>
+      </section> */}
 
       <section className="copilot-layout">
         <div className="copilot-context">
@@ -51,9 +51,9 @@ export default async function CopilotPage() {
           <Button href="/relatorio">Gerar relatório</Button>
         </div>
 
-        <aside className="copilot-chat" aria-label="Chat mockado do Copiloto PID">
+        {/* <aside className="copilot-chat" aria-label="Chat mockado do Copiloto PID">
           <ChatMock />
-        </aside>
+        </aside> */}
       </section>
     </AppShell>
   );

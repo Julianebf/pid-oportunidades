@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <AppHeader />
           {children}
         </main>
-        <CopilotWidget />
+        {/* <CopilotWidget /> */}
       </body>
     </html>
   );

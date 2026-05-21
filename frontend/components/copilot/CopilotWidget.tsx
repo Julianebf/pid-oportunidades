@@ -28,9 +28,9 @@ export function CopilotWidget() {
             </span>
           </div>
           <div>
-            <h2 className="font-headline-md text-headline-md text-primary leading-tight">
+            {/* <h2 className="font-headline-md text-headline-md text-primary leading-tight">
               Copiloto PID
-            </h2>
+            </h2> */}
             <p className="font-label-sm text-label-sm text-on-surface-variant">
               Inteligência Analítica Institucional
             </p>
